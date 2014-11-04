@@ -31,7 +31,8 @@
     <string name="username" msgid="5057566336518215922">"Brukernavn"</string>
     <string name="password" msgid="1177138552305184404">"Passord"</string>
     <string name="action" msgid="183105774472071343">"Logg på"</string>
-    <string name="bookmarks_add_page" msgid="3093456701072617702">"Lagre bokmerke"</string>
+    <!-- no translation found for bookmarks_add_page (3093456701072617702) -->
+    <skip />
     <string name="bookmarks_search" msgid="5229596268214362873">"Nettleser"</string>
     <string name="cancel" msgid="3017274947407233702">"Avbryt"</string>
     <string name="ok" msgid="1509280796718850364">"OK"</string>
@@ -95,7 +96,8 @@
     <string name="open_all_in_new_window" msgid="455786763426575293">"Åpne alle i nye faner"</string>
     <string name="goto_dot" msgid="3895839050522602723">"Gå til"</string>
     <string name="select_dot" msgid="6299170761900561967">"Velg tekst"</string>
-    <string name="close_other_tabs" msgid="7693157495148282778">"Lukk de andre fanene"</string>
+    <!-- no translation found for close_other_tabs (7693157495148282778) -->
+    <skip />
     <string name="bookmarks" msgid="1961279134885867815">"Bokmerker"</string>
     <string name="shortcut_bookmark" msgid="3974876480401135895">"Bokmerke"</string>
     <string name="shortcut_bookmark_title" msgid="7570786275916681296">"Velg et bokmerke"</string>
@@ -104,15 +106,16 @@
     <string name="copy_page_url" msgid="1188679152608889555">"Kopier nettadresse"</string>
     <string name="share_page" msgid="593756995297268343">"Del side"</string>
     <string name="menu_save_snapshot" msgid="6935080344031126139">"Lagre for frakoblet lesing"</string>
-    <string name="saving_snapshot" msgid="1693789062351182809">"Lagrer …"</string>
+    <!-- no translation found for saving_snapshot (1693789062351182809) -->
+    <skip />
     <string name="snapshot_failed" msgid="4584580873565876033">"Kunne ikke lagre for frakoblet lesing."</string>
     <string name="contextheader_folder_bookmarkcount" msgid="353987136645619089">"<xliff:g id="BOOKMARK_COUNT">%d</xliff:g> bokmerker"</string>
     <string name="contextheader_folder_empty" msgid="974171637803391651">"Tøm mappe"</string>
     <string name="contextmenu_openlink" msgid="7237961252214188935">"Åpne"</string>
     <string name="contextmenu_openlink_newwindow" msgid="1205313604181761403">"Åpne i ny fane"</string>
     <string name="contextmenu_openlink_newwindow_background" msgid="4690381019116746687">"Åpne i ny bakgrunnsfane"</string>
-    <string name="contextmenu_savelink" msgid="5508554930832538184">"Lagre denne linken"</string>
-    <string name="contextmenu_sharelink" msgid="5392275392280130331">"Del denne linken"</string>
+    <string name="contextmenu_savelink" msgid="5508554930832538184">"Lagre kobling"</string>
+    <string name="contextmenu_sharelink" msgid="5392275392280130331">"Del kobling"</string>
     <string name="contextmenu_copy" msgid="398860586635404030">"Kopier"</string>
     <string name="contextmenu_copylink" msgid="5153657160294534270">"Kopier koblingsadresse"</string>
     <string name="contextmenu_download_image" msgid="4243829645180686912">"Lagre bilde"</string>
@@ -128,7 +131,8 @@
     <string name="browser_bookmarks_page_bookmarks_text" msgid="6787605028726162673">"Bokmerker"</string>
     <string name="menu_preferences" msgid="6709237687234102240">"Innstillinger"</string>
     <string name="pref_content_title" msgid="3834107397725342174">"Sideinnhold"</string>
-    <string name="pref_allow_apptabs" msgid="1325989799080202871">"Tillat flere faner per app"</string>
+    <!-- no translation found for pref_allow_apptabs (1325989799080202871) -->
+    <skip />
     <string name="pref_content_load_images" msgid="2125616852957377561">"Last bilder"</string>
     <string name="pref_content_load_images_summary" msgid="5055874125248398584">"Vis bilder på nettsteder"</string>
     <string name="pref_content_block_popups" msgid="4158524847764470895">"Blokker forgrunnsvinduer"</string>
@@ -285,14 +289,15 @@
   </string-array>
     <string name="pref_data_preload_summary" msgid="3809168910751382727">"La nettleseren forhåndsinnlaste sannsynlige søkeresultater i bakgrunnen"</string>
     <string name="pref_data_preload_dialogtitle" msgid="8421297746110796536">"Forhåndsinnlasting av søkeresultat"</string>
-    <string name="pref_link_prefetch_title" msgid="4123685219009241072">"Forhåndsinnlasting av nettsider"</string>
-  <string-array name="pref_link_prefetch_choices">
-    <item msgid="4889781230398008031">"Aldri"</item>
-    <item msgid="1908465963242077428">"Bare med Wi-Fi"</item>
-    <item msgid="7647277566998527142">"Alltid"</item>
-  </string-array>
-    <string name="pref_link_prefetch_summary" msgid="6558181497993206817">"La nettleseren forhåndsinnlaste koblede nettsider i bakgrunnen"</string>
-    <string name="pref_link_prefetch_dialogtitle" msgid="3804646141622839765">"Forhåndsinnlasting av nettsider"</string>
+    <!-- no translation found for pref_link_prefetch_title (4123685219009241072) -->
+    <skip />
+    <!-- no translation found for pref_link_prefetch_choices:0 (4889781230398008031) -->
+    <!-- no translation found for pref_link_prefetch_choices:1 (1908465963242077428) -->
+    <!-- no translation found for pref_link_prefetch_choices:2 (7647277566998527142) -->
+    <!-- no translation found for pref_link_prefetch_summary (6558181497993206817) -->
+    <skip />
+    <!-- no translation found for pref_link_prefetch_dialogtitle (3804646141622839765) -->
+    <skip />
     <string name="browserFrameNetworkErrorLabel" msgid="8102515020625680714">"Tilkoblingsproblem"</string>
     <string name="browserFrameFileErrorLabel" msgid="4703792279852977350">"Filproblem"</string>
     <string name="browserFrameFormResubmitLabel" msgid="2385512101948178841"></string>
@@ -367,7 +372,8 @@
     <string name="progress_dialog_setting_wallpaper" msgid="2031391201442335889">"Angir bakgrunn …"</string>
     <string name="defaultBookmarksUpButton" msgid="2303951020715704735">"Bokmerker"</string>
     <string name="empty_bookmarks_folder" msgid="6239830231917618556">"Ingen bokmerker."</string>
-    <string name="other_bookmarks" msgid="8021889794475657319">"Andre bokmerker"</string>
+    <!-- no translation found for other_bookmarks (8021889794475657319) -->
+    <skip />
     <string name="rlz_access_point" msgid="7165847807377650632">"Y1"</string>
     <string name="account_chooser_dialog_title" msgid="3314204833188808194">"Velg konto"</string>
     <string name="import_bookmarks_dialog_title" msgid="3325557652271172128">"Synkroniser med Google-konto"</string>
@@ -401,7 +407,7 @@
     <string name="accessibility_button_search" msgid="5357014102136055376">"Søk"</string>
     <string name="accessibility_button_voice" msgid="152016375096083337">"Start talesøk"</string>
     <string name="accessibility_button_bookmarks" msgid="7435055677299151649">"Bokmerker"</string>
-    <string name="accessibility_button_closetab" msgid="6954807842756927737">"Lukk fanen"</string>
+    <string name="accessibility_button_closetab" msgid="6954807842756927737">"Lukk fane"</string>
     <string name="accessibility_button_newtab" msgid="4116986240706315748">"Åpne ny fane"</string>
     <string name="accessibility_button_newincognitotab" msgid="5254901889040012964">"Åpne ny inkognitofane"</string>
     <string name="accessibility_button_clear" msgid="6943152307986161598">"Tøm inndata"</string>
@@ -412,5 +418,6 @@
     <string name="accessibility_state_incognito" msgid="5786038488425202355">"Inkognitoside"</string>
     <string name="accessibility_state_frozen" msgid="8041539250447035570">"Lagret side"</string>
     <string name="accessibility_transition_navscreen" msgid="2734915619351519547">"Faneadministrering"</string>
-    <string name="accessibility_button_bookmarks_folder_up" msgid="9179389954714270505">"Forrige mappe"</string>
+    <!-- no translation found for accessibility_button_bookmarks_folder_up (9179389954714270505) -->
+    <skip />
 </resources>

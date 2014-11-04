@@ -75,6 +75,7 @@ import android.webkit.MimeTypeMap;
 import android.webkit.SslErrorHandler;
 import android.webkit.ValueCallback;
 import android.webkit.WebChromeClient;
+import android.webkit.WebChromeClient.FileChooserParams;
 import android.webkit.WebIconDatabase;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
@@ -1926,9 +1927,9 @@ public class Controller
 
     // file chooser
     @Override
-    public void openFileChooser(ValueCallback<Uri> uploadMsg, String acceptType, String capture) {
+    public void showFileChooser(ValueCallback<Uri[]> callback, FileChooserParams params) {
         mUploadHandler = new UploadHandler(this);
-        mUploadHandler.openFileChooser(uploadMsg, acceptType, capture);
+        mUploadHandler.openFileChooser(callback, params);
     }
 
     // thumbnails
@@ -2713,7 +2714,7 @@ public class Controller
     @Override
     public void startVoiceRecognizer() {
         Intent voice = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
-        voice.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL, 
+        voice.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL,
                 RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
         voice.putExtra(RecognizerIntent.EXTRA_MAX_RESULTS, 1);
         mActivity.startActivityForResult(voice, VOICE_RESULT);
