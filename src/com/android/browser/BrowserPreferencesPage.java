@@ -22,8 +22,14 @@ import android.os.Bundle;
 import android.preference.PreferenceActivity;
 import android.view.MenuItem;
 
+import com.android.browser.preferences.AccessibilityPreferencesFragment;
+import com.android.browser.preferences.AdvancedPreferencesFragment;
 import com.android.browser.preferences.BandwidthPreferencesFragment;
 import com.android.browser.preferences.DebugPreferencesFragment;
+import com.android.browser.preferences.GeneralPreferencesFragment;
+import com.android.browser.preferences.LabPreferencesFragment;
+import com.android.browser.preferences.PrivacySecurityPreferencesFragment;
+import com.android.browser.preferences.WebsiteSettingsFragment;
 
 import java.util.Arrays;
 import java.util.HashSet;
@@ -101,17 +107,15 @@ public class BrowserPreferencesPage extends PreferenceActivity {
         return intent;
     }
 
-    private static final Set<String> sKnownFragments = new HashSet<String>(Arrays.asList(
-            "com.android.browser.preferences.GeneralPreferencesFragment",
-            "com.android.browser.preferences.PrivacySecurityPreferencesFragment",
-            "com.android.browser.preferences.AccessibilityPreferencesFragment",
-            "com.android.browser.preferences.AdvancedPreferencesFragment",
-            "com.android.browser.preferences.BandwidthPreferencesFragment",
-            "com.android.browser.preferences.LabPreferencesFragment",
-            "com.android.browser.preferences.WebsiteSettingsFragment"));
-
     @Override
     protected boolean isValidFragment(String fragmentName) {
-        return sKnownFragments.contains(fragmentName);
+        return AccessibilityPreferencesFragment.class.getName().equals(fragmentName) ||
+                AdvancedPreferencesFragment.class.getName().equals(fragmentName) ||
+                BandwidthPreferencesFragment.class.getName().equals(fragmentName) ||
+                DebugPreferencesFragment.class.getName().equals(fragmentName) ||
+                GeneralPreferencesFragment.class.getName().equals(fragmentName) ||
+                LabPreferencesFragment.class.getName().equals(fragmentName) ||
+                PrivacySecurityPreferencesFragment.class.getName().equals(fragmentName) ||
+                WebsiteSettingsFragment.class.getName().equals(fragmentName);
     }
 }
